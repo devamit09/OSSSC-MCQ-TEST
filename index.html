@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OSSSC EXAM</title>
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="quiz-header">
+      <h1>OSSSC RI,ARI & AMIN ~ 2017</h1>
+      <div class="controls">
+        <span class="timer">Time: 00:00</span>
+        <button id="dark-mode-toggle">🌙</button>
+        <button id="exit-btn">Exit</button>
+      </div>
+    </header>
+
+    <main class="quiz-container">
+      <section class="question-area">
+        <div class="question-count"></div>
+        <div id="question" class="question"></div>
+        <div id="options" class="options"></div>
+
+        <div class="navigation-buttons">
+          <button id="prev-btn">Previous</button>
+          <button id="next-btn">Next</button>
+          <button id="submit-btn">Submit</button>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <h2>Progress</h2>
+        <div class="stats">
+          <div>Total: <span id="total-questions">0</span></div>
+          <div>Answered: <span id="answered-questions">0</span></div>
+          <div>Remaining: <span id="remaining-questions">0</span></div>
+        </div>
+        <div id="progress-grid" class="progress-grid"></div>
+      </aside>
+    </main>
+
+    <div id="result" class="result"></div>
+    <button class="back-to-top">↑ Back to Top</button>
+
+<!--     
+    <footer class="footer">
+      <div class="footer-inner">
+        <img src="images/footerbg.png" alt="Footer Logo" class="footer-logo" />
+        <div class="footer-text">
+          <h3>About Me</h3>
+          <p>
+            Hi, I'm AKS — the creator of this OSSSC Online Mock Test App. I was once a competitive exam aspirant too, and I faced many challenges in finding free and reliable mock practice platforms. That experience inspired me to create this free tool for all my fellow students, brothers, sisters, and friends preparing for competitive exams.
+This app is 100% free and made with love for all aspirants.
+If you find any issues, mistakes, or have suggestions for improvement, feel free to message me through the feedback form below.
+And if you liked this app, please write a kind message in the feedback box to motivate me. It will inspire me to keep building free mock tests and websites for OSSSC and OSSC previous year papers to help even more aspirants like you.
+          </p>
+        </div>
+        <div class="feedback-form">
+            <h4>Message me</h4>
+            <form action="https://formspree.io/f/myzwklww" method="POST">
+              <textarea name="message" rows="4" placeholder="Your feedback..." required></textarea>
+              <input type="email" name="email" placeholder="Your email (optional)">
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+          
+      </div>
+      <p class="dedication">Dedicated with love to my dear nephews — Kishan Kanhaiya (K.K).</p>
+      <p>© 2025 OSSC Quiz App. All rights reserved.</p>
+    </footer>
+
+     -->
+
+     <footer class="footer">
+        <div class="footer-sections">
+      
+          <!-- ABOUT -->
+          <div class="about-me">
+            <img src="images/footerbg.png" alt="Footer Logo" class="footer-logo" />
+            <div class="footer-text">
+              <h3>About Me</h3>
+              <p>
+                I'm AKS — a former aspirant who once struggled to find good mock test platforms. So, I created this app to support my fellow aspirants preparing for competitive exams.
+                It’s completely free. If you liked it, please leave a kind message to motivate me. Your feedback helps me build more OSSSC & OSSC test tools for everyone.
+              </p>
+              <p>Jai Jagannath&#x1F64F;<br>Jai Maa Samaleswari&#x1F64F;</p>
+            </div>
+          </div>
+      
+          <!-- FEEDBACK -->
+          <div class="feedback-form">
+            <h4>Send Feedback</h4>
+            <form action="https://formspree.io/f/myzwklww" method="POST">
+              <textarea name="message" rows="4" placeholder="Your message..." required></textarea>
+              <input type="email" name="email" placeholder="Your email (optional)" />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      
+        <p class="dedication">❤️ Dedicated with love to my dear nephews — <strong>Kishan & Kanhaiya</strong> (K.K.)</p>
+        <p class="footer-bottom">© 2025 OSSSC Quiz App. All rights reserved.</p>
+      </footer>
+      
+
+    <script src="quiz-data.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </body>
+</html>
