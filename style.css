@@ -18,6 +18,14 @@ body {
   .quiz-header h1 {
     margin: 0;
     font-size: 1.5rem;
+    
+  }
+
+  .quiz-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: rgb(232, 18, 10);
+    background-color: #d4edda;
   }
   
   .controls {
