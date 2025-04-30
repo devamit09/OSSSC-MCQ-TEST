@@ -24,8 +24,9 @@ This application is **completely free** and created with love and purpose by a f
 ---
 
 ## 📸 Screenshots
-
+#NORMAL VIEW
 ![Quiz Interface](images/lightmode.png)
+#Dark Mode On
 ![Dark Mode](images/darkmode.png)
 
 
