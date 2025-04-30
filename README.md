@@ -25,15 +25,15 @@ This application is **completely free** and created with love and purpose by a f
 
 ## 📸 Screenshots
 
-![Quiz Interface](screenshots/quiz-interface.png)
-![Dark Mode](screenshots/dark-mode.png)
-![Feedback & Footer](screenshots/footer-feedback.png)
+![Quiz Interface](images/lightmode.png)
+![Dark Mode](images/darkmode.png)
+
 
 ---
 
 ## 🚀 Live Demo
 
-You can try the app here: [https://your-deployment-link.com](https://your-deployment-link.com)
+You can try the app here: https://devamit09.github.io/OSSSC-MCQ-TEST/
 
 ---
 
